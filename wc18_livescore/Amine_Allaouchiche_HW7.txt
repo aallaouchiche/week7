@@ -1,0 +1,36 @@
+Above are the requirements for the project. For this week however, you'll need to create a plan for your project. More details are to come, but you'll need to create a pull request with the following:
+* The name of your project : The Soccer 2018 World Cup App
+* An elevator pitch (a paragraph about what your project does). Be sure to address:
+    * Who will use your project: This project is destined to all soccer fans around the world especially those who don’t have access to soccer channels while the games are on
+    * The value that your project will provide to the end user: live updates to users who want to know the results of all the games for the Russia Soccer WorldCup 2018, along with the stats of the games, groups’ standings, and players’ info. Scores of previous games and live scores of live games that include time elapsed, goals scored, yellow and red cards, substitutions, referee name, city where the game is taking place on and weather conditions of the city.
+* Wireframes to help visualize what your project will look like : see attachment)
+* The main page will have a list of all groups participating in the worldcup
+    a click on a group will display the group standing and a click on the coutry will display
+    the country's stats: goals, players, coach, yellow cards, red cards etc
+    a click on a player will show the player profile
+    if a game is live the live page will show the game updates 
+* A list of dependencies you'll be using for your project (npm modules, APIs, Firebase, etc.):
+    * LiveScore API ()
+    * React
+    * Route,
+    * Link
+    * BrowserRouter
+    * FireBase
+    * ReactDom 
+
+* A list of tasks that need to be completed for your project
+    * Example list of tasks for the Star Wars films example:
+        * Setup create-react-app scaffold
+        * Call the LiveScore  API and get the status of all teams
+        * Call the liveScore API to get the status of all groups
+        * Call the LiveScore API to get the data of live game(s)
+        * Store API results in React component state
+        * Render React state
+        * Create Components for each special request to the API based on clicks ( click on team will get team stats/data. Click on a player will display player’s data, etc
+        * Render the returned data into a new page
+        * Work on the overall pages polishing and CSS
+* A plan for the next 3 weeks and what you plan to accomplish each week
+    * Unfortunately, I do not have three weeks, I spent two days looking checking the API and look for the data available for teams/players
+    * 12 hours create account, fetch data  and create components (Week1)
+    * 8 hours work on formatting and displaying data ( week2)
+    * 6 hours debug/test  (week3) 
